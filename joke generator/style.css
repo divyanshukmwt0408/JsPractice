@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #e0e0e0;
+  font-size: 1rem;
+  outline: none;
+}
+
+.center-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+#joke {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+button#new-joke {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
